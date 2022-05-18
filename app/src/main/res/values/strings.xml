@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Layout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_16din">\@e16din</string>
+    <string name="tv_facebook_login_text">Телефон или электронный адрес</string>
+    <string name="et_calculation_text">789+56</string>
+    <string name="tv_sum_text">845</string>
+    <string name="iv_name_category_text">музыка для секса</string>
+    <string name="tv_description_text">Сейчас играет</string>
+    <string name="tv_name_song_text">Angel (feat. Julie Elven)</string>
+    <string name="tv_name_author_text">R.Armando Morabito</string>
+    <string name="tv_name_user_text">Александр Кундрюков</string>
+    <string name="tv_is_online_text">online</string>
+    <string name="tv_account_text">Account</string>
+    <string name="tv_phone_number_text">+7 (950) 850-90-07</string>
+    <string name="tap_to_change_phone_number_text">Tap to change phone number</string>
+    <string name="tv_user_name_description_text">Username</string>
+    <string name="tv_bio_description_text">Солнце не ждет тепла - оно светит и ...</string>
+    <string name="bio_text">Bio</string>
+    <string name="settings_text">Settings</string>
+    <string name="notification_text">Notification and Sounds</string>
+    <string name="privacy_text">Privacy and Security</string>
+    <string name="data_and_storage_text">Data and Storage</string>
+    <string name="chat_settings_text">Chat Settings</string>
+    <string name="chat_folders_text">Chat Folders</string>
+    <string name="devices_text">Devices</string>
+    <string name="tv_password_hint">Пароль</string>
+    <string name="tv_password_recovery_hint">Забыли пароль?</string>
+    <string name="button_enter_text">Войти</string>
+</resources>

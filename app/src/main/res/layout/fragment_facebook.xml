@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_facebook_logo"
+        android:layout_width="76dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/facebooklogo_foreground" />
+
+    <EditText
+        android:id="@+id/tv_login"
+        android:layout_width="270dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#75B8EF"
+        android:ems="10"
+        android:hint="Телефон или электронный адрес"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/iv_facebook_logo"
+        app:layout_constraintStart_toStartOf="@+id/iv_facebook_logo"
+        app:layout_constraintTop_toBottomOf="@+id/iv_facebook_logo" />
+
+    <EditText
+        android:id="@+id/tv_password"
+        android:layout_width="270dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="@string/tv_password_hint"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/tv_login"
+        app:layout_constraintStart_toStartOf="@+id/tv_login"
+        app:layout_constraintTop_toBottomOf="@+id/tv_login" />
+
+    <TextView
+        android:id="@+id/tv_password_recovery"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:text="@string/tv_password_recovery_hint"
+        android:textColor="#145FC7"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/button_enter"
+        app:layout_constraintStart_toStartOf="@+id/button_enter"
+        app:layout_constraintTop_toBottomOf="@+id/button_enter" />
+
+    <Button
+        android:id="@+id/button_enter"
+        android:layout_width="271dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#1878F3"
+        android:text="@string/button_enter_text"
+        android:textAllCaps="false"
+        android:textColor="#83BEFF"
+        android:textStyle="bold"
+        app:iconTint="#2196F3"
+        app:layout_constraintEnd_toEndOf="@+id/tv_password"
+        app:layout_constraintStart_toStartOf="@+id/tv_password"
+        app:layout_constraintTop_toBottomOf="@+id/tv_password" />
+</androidx.constraintlayout.widget.ConstraintLayout>
